@@ -149,10 +149,8 @@ function updateWeatherDisplay(forecastData, historyData) {
 }
 
 // Event listener for search input
-searchInput.addEventListener("keypress", (event) => {
-  if (event.key === "Enter") {
-    fetchWeatherData(searchInput.value);
-  }
+searchInput.addEventListener("search", () => {
+  fetchWeatherData(searchInput.value);
 });
 
 // Initial weather fetch
