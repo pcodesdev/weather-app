@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon_io/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <input type="text" placeholder="Search for a city" />
+      </nav>
+      <header class="header">
+        <div class="header-container">
+          <div class="temperature">
+            <p>30℃</p>
+            <img src="assets/sun.png" alt="bright sun" />
+          </div>
+          <p class="place">Nairobi, Kenya</p>
+          <p class="weather-status">Sunny</p>
+          <p class="temp-status">35℃ | 21℃</p>
+        </div>
+      </header>
+      <main>
+        <section class="week-forecast">
+          <div class="day-1">
+            <p>Tue, Sep 24</p>
+            <p>15℃ | 10℃</p>
+            <img src="assets/rainy.png" alt="rainy cloud" />
+          </div>
+          <div class="day-2">
+            <p>Tue, Sep 24</p>
+            <p>15℃ | 10℃</p>
+            <img src="assets/windy.png" alt="windly cloud" />
+          </div>
+          <div class="day-3">
+            <p>Thu, Sep 26</p>
+            <p>25℃ | 9℃</p>
+            <img src="assets/sun-rainy-day.png" alt="rainy cloud with sun" />
+          </div>
+          <h1>Past 4 Days History</h1>
+          <div class="day-4">
+            <p>Fri, Sep 27</p>
+            <p>28℃ | 15℃</p>
+            <img src="assets/sun.png" alt="sunny day" />
+          </div>
+          <div class="day-5">
+            <p>Sat, Sep 28</p>
+            <p>20℃ | 13℃</p>
+            <img src="assets/thurder-storms.png" alt="thurder-storms clouds" />
+          </div>
+          <div class="day-6">
+            <p>Sun, Sep 29</p>
+            <p>25℃ | 9℃</p>
+            <img src="assets/rainy-day.png" alt="rainy cloud" />
+          </div>
+          <div class="day-7">
+            <p>Mon, Sep 30</p>
+            <p>38℃ | 19℃</p>
+            <img src="assets/sun-cloud.png" alt="calm" />
+          </div>
+        </section>
+      </main>
+      <footer class="footer">Copyright @pcodesdev</footer>
+    </div>
+
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
